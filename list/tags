@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+At_Array	DynamicArray.c	/^int At_Array(Dynamic_Array* arr,int pos)$/;"	f
+Capacity_Array	DynamicArray.c	/^int Capacity_Array(Dynamic_Array* arr)$/;"	f
+Clear_Array	DynamicArray.c	/^void Clear_Array(Dynamic_Array* arr)$/;"	f
+DYNAMICARRAY	DynamicArray.h	/^typedef struct DYNAMICARRAY$/;"	s
+DYNAMIC_ARRAY_H	DynamicArray.h	2;"	d
+Dynamic_Array	DynamicArray.h	/^}Dynamic_Array;$/;"	t	typeref:struct:DYNAMICARRAY
+Find_Array	DynamicArray.c	/^int Find_Array(Dynamic_Array* arr,int value){$/;"	f
+FreeSpace_Array	DynamicArray.c	/^void FreeSpace_Array(Dynamic_Array* arr){$/;"	f
+Init_Array	DynamicArray.c	/^Dynamic_Array* Init_Array()$/;"	f
+PrintArray	DynamicArray.c	/^void PrintArray(Dynamic_Array* arr){$/;"	f
+PushBack_Array	DynamicArray.c	/^void PushBack_Array(Dynamic_Array* arr,int value)$/;"	f
+RemoveByPos_Array	DynamicArray.c	/^void RemoveByPos_Array(Dynamic_Array* arr,int pos)$/;"	f
+RemoveByValue_Array	DynamicArray.c	/^void RemoveByValue_Array(Dynamic_Array* arr,int value)$/;"	f
+Size_Array	DynamicArray.c	/^int Size_Array(Dynamic_Array* arr)$/;"	f
+_CRT_SERCURE_NO_WARNINGS	main.c	15;"	d	file:
+capacity	DynamicArray.h	/^	int capacity;\/\/容量$/;"	m	struct:DYNAMICARRAY
+main	main.c	/^int main(void)$/;"	f
+pAddr	DynamicArray.h	/^	int* pAddr;\/\/存放数据的地址$/;"	m	struct:DYNAMICARRAY
+size	DynamicArray.h	/^	int size;\/\/当前元素个数$/;"	m	struct:DYNAMICARRAY
+test01	main.c	/^void test01()$/;"	f
